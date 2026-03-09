@@ -1,0 +1,123 @@
+Let's say you really need to figure out what 1 plus 2 is.
+ Say you need to create a Python script to do this for you.
+ Sure, you can type print 1 plus 2.
+ But what's the fun in that?
+ Let's instead go to function 2 for us.
+ Let's call it add with an input of x and y.
+ Next, let's return x plus y.
+ So let's try this function with an input of 1 and 2.
+ And everything works.
+ Except this takes up three whole lines of code.
+ What a waste of space.
+ Let's instead use a lambda function.
+ Lambda functions are the same as regular functions like up here.
+ Except they're typically used in one use cases.
+ It's denoted by typing lambda.
+ And after lambda, we give it an input argument of x and y.
+ Just like our add function up here.
+ We'll do colon.
+ And then we write a one line expression.
+ In this case, it's just x plus y.
+ Which is what gets returned.
+ No need to type the return keyword.
+ This all gets enclosed in parentheses.
+ And then our inputs 1 and 2 go here in parentheses.
+ So let's run this.
+ And there we go.
+C:\Users\User\Desktop\render_test\4thYearProject\test_pass_hackathon\Final_RAG_Backend\Rag_Backend.py:31: LangChainDeprecationWarning: The class `Ollama` was deprecated in LangChain 0.3.1 and will be removed in 1.0.0. An updated version of the class exists in the :class:`~langchain-ollama package and should be used instead. To use it run `pip install -U :class:`~langchain-ollama` and import as `from :class:`~langchain_ollama import OllamaLLM``.
+  llm=Ollama(model="llama3.1:8b",temperature=0.7)
+{
+  "questions": [
+    {
+      "question": "What is the purpose of creating a function in Python?",
+      "options": ["To make code more complex", "To reuse code", "To print output", "None of these"],      
+      "answer": 2
+    },
+    {
+      "question": "What are lambda functions typically used for?",
+      "options": ["For long calculations", "For one-time use cases", "For making code look complicated", "For writing comments"],
+      "answer": 1
+    },
+    {
+      "question": "How do you denote the start of a lambda function in Python?",
+      "options": ["By typing 'def'", "By typing 'lambda'", "By typing 'return'", "By typing 'input'"],    
+      "answer": 1
+    },
+    {
+      "question": "What keyword is not needed when using a lambda function to return an expression?",     
+      "options": ["The 'print' keyword", "The 'def' keyword", "The 'return' keyword", "None of these"],   
+      "answer": 2
+    },
+    {
+      "question": "Where do the inputs for a lambda function go?",
+      "options": ["Outside of the parentheses", "Inside of the parentheses", "At the end of the line", "In the middle of the expression"],
+      "answer": 1
+    }
+  ]
+}
+INFO:     127.0.0.1:58866 - "POST /get_audio HTTP/1.1" 200 OK
+
+
+
+test case 2:
+
+
+
+
+
+
+ Let's say you really need to figure out what 1 plus 2 is.
+ Say you need to create a Python script to do this for you.
+ Sure, you can type print 1 plus 2.
+ But what's the fun in that?
+ Let's instead go to function 2 for us.
+ Let's call it add with an input of x and y.
+ Next, let's return x plus y.
+ So let's try this function with an input of 1 and 2.
+ And everything works.
+ Except this takes up three whole lines of code.
+ What a waste of space.
+ Let's instead use a lambda function.
+ Lambda functions are the same as regular functions like up here.
+ Except they're typically used in one use cases.
+ It's denoted by typing lambda.
+ And after lambda, we give it an input argument of x and y.
+ Just like our add function up here.
+ We'll do colon.
+ And then we write a one line expression.
+ In this case, it's just x plus y.
+ Which is what gets returned.
+ No need to type the return keyword.
+ This all gets enclosed in parentheses.
+ And then our inputs 1 and 2 go here in parentheses.
+ So let's run this.
+ And there we go.
+{
+  "questions": [
+    {
+      "question": "What is the function type for add()?",
+      "options": ["Regular Function", "Lambda Function", "Class Function", "None of the above"],
+      "answer": 0
+    },
+    {
+      "question": "How do we denote a lambda function in Python?",
+      "options": ["def", "lambda", "class", "None of the above"],
+      "answer": 1
+    },
+    {
+      "question": "What keyword is not needed when using a lambda function?",
+      "options": ["Return", "Print", "Input", "None of the above"],
+      "answer": 0
+    },
+    {
+      "question": "How do we call a lambda function in Python?",
+      "options": ["Using parentheses with input values", "By defining it first and then calling it", "By using a class", "None of the above"],
+      "answer": 0
+    },
+    {
+      "question": "What is the purpose of typing colon (:) in a lambda function?",
+      "options": ["To define the return value", "To specify the input arguments", "To denote the start of a new line", "None of the above"],
+      "answer": 1
+    }
+  ]
+}

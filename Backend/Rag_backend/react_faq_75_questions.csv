@@ -1,0 +1,110 @@
+prompt,response
+What is React?,"React is a JavaScript library for building user interfaces, mainly for single-page applications."
+What are components in React?,Components are reusable building blocks in React that return UI elements.
+What is JSX?,JSX is a syntax extension for JavaScript that allows writing HTML-like code inside JavaScript.
+What is the virtual DOM?,The virtual DOM is a lightweight copy of the real DOM used by React to optimize updates.
+What are props in React?,Props are inputs passed to components to customize their behavior and appearance.
+What is state in React?,State is an object that stores data that can change over time in a component.
+What is the difference between state and props?,"Props are read-only and passed from parent components, while state is managed within the component."
+What is useState hook?,useState is a React hook that allows functional components to manage state.
+What is useEffect hook?,useEffect is a hook used to handle side effects like data fetching and subscriptions.
+What is conditional rendering?,Conditional rendering means displaying different UI elements based on conditions.
+What is a functional component?,A functional component is a JavaScript function that returns JSX to render UI.
+What is a class component?,A class component is a React component created using ES6 classes and extends React.Component.
+What are keys in React?,Keys are unique identifiers used by React to track elements in a list.
+What is lifting state up?,Lifting state up means moving shared state to a common parent component.
+What is React Router?,React Router is a library used for routing and navigation in React applications.
+What is a controlled component?,A controlled component is a form element controlled by React state.
+What is an uncontrolled component?,An uncontrolled component manages its state using the DOM.
+What is Context API?,Context API allows sharing data across components without prop drilling.
+What is prop drilling?,Prop drilling is passing props through multiple nested components.
+What is React.memo?,React.memo is used to optimize performance by preventing unnecessary re-renders.
+What is useRef hook?,useRef is a hook that stores mutable values without causing re-renders.
+What is reconciliation in React?,Reconciliation is the process React uses to update the DOM efficiently.
+What is a fragment in React?,A fragment lets you group multiple elements without adding extra nodes to the DOM.
+What is lazy loading in React?,Lazy loading is a technique to load components only when they are needed.
+What is suspense in React?,Suspense allows React to wait for components to load before rendering.
+What is higher-order component?,A higher-order component is a function that takes a component and returns a new component.
+What is custom hook?,A custom hook is a reusable function that uses React hooks to share logic.
+What is pure component?,A pure component prevents unnecessary re-renders by shallow comparison of props and state.
+What is forwardRef?,forwardRef allows refs to be passed from parent to child components.
+What is server-side rendering?,Server-side rendering renders React components on the server instead of the browser.
+What is hydration in React?,Hydration is the process of attaching React to server-rendered HTML.
+What is error boundary?,An error boundary is a component that catches JavaScript errors in its child components.
+What is batching in React?,Batching is the process of grouping multiple state updates into a single re-render.
+What is concurrent rendering?,Concurrent rendering allows React to prepare multiple UI states at the same time.
+What is strict mode in React?,Strict Mode is a development tool that highlights potential problems in a React app.
+What is useCallback hook?,useCallback is a hook that memoizes functions to prevent unnecessary re-creation.
+What is useMemo hook?,useMemo is a hook that memoizes expensive calculations for performance optimization.
+What is synthetic event?,A synthetic event is React’s cross-browser wrapper around native browser events.
+What is reconciliation key?,A reconciliation key helps React efficiently update lists of elements.
+What is React portal?,A portal allows rendering children into a DOM node outside the parent hierarchy.
+What is code splitting?,Code splitting is the practice of dividing bundles to improve load performance.
+What is immutable state?,Immutable state means state should not be directly modified but replaced with new copies.
+What is one-way data binding?,One-way data binding means data flows from parent to child components.
+What is React Strict Mode used for?,React Strict Mode helps identify potential problems during development.
+What is component lifecycle?,Component lifecycle refers to the phases a React component goes through.
+What is componentDidMount?,componentDidMount is a lifecycle method called after a component is rendered.
+What is componentDidUpdate?,componentDidUpdate runs after a component updates due to state or prop changes.
+What is componentWillUnmount?,componentWillUnmount is called before a component is removed from the DOM.
+What is default props?,Default props are fallback values for props if none are provided.
+What is prop types?,PropTypes is used for type-checking props in React components.
+What is shallow rendering?,Shallow rendering renders a component without its child components.
+What is reconciliation algorithm?,The reconciliation algorithm determines how React updates the DOM efficiently.
+What is React DevTools?,React DevTools is a browser extension for inspecting React components.
+What is event handling in React?,Event handling in React uses synthetic events to handle user interactions.
+What is React Fiber?,React Fiber is React’s internal engine for scheduling and rendering updates.
+What is time slicing in React?,Time slicing allows React to split rendering work into smaller chunks.
+What is automatic batching?,Automatic batching groups multiple state updates into one render.
+What is useLayoutEffect?,useLayoutEffect runs synchronously after DOM updates but before painting.
+What is useImperativeHandle?,useImperativeHandle customizes the instance value exposed by a ref.
+What is React StrictMode double rendering?,It is a development behavior to detect side effects by rendering twice.
+What is state normalization?,State normalization organizes state to reduce duplication.
+What is render props pattern?,Render props is a pattern where a function is used to share logic.
+What is controlled form?,A controlled form is a form where input values are managed by React state.
+What is React testing library?,React Testing Library is used to test React components from a user perspective.
+What is snapshot testing?,Snapshot testing compares UI output to previously saved snapshots.
+What is MERN stack?,MERN stack is a collection of MongoDB Express React and Node.js used for full stack development.
+What is the role of MongoDB in MERN?,MongoDB is used as a NoSQL database to store application data.
+What is Express.js?,Express.js is a Node.js framework used to build backend APIs and web applications.
+What is the role of Node.js in MERN?,Node.js is used to run JavaScript on the server side.
+How does React fit into MERN stack?,React is used to build the frontend user interface.
+What is REST API in MERN?,A REST API allows communication between frontend and backend using HTTP methods.
+What is middleware in Express?,Middleware functions process requests and responses in Express applications.
+How does frontend communicate with backend in MERN?,The frontend communicates with the backend using HTTP requests like GET and POST.
+What is Mongoose?,Mongoose is an ODM library used to interact with MongoDB in Node.js.
+What is JWT authentication?,JWT authentication uses tokens to securely authenticate users.
+What is CRUD operation in MERN?,CRUD refers to Create Read Update and Delete operations in a MERN application.
+What is MVC architecture in MERN?,MVC separates application logic into Model View and Controller layers.
+What is API endpoint?,An API endpoint is a specific URL that handles client requests.
+What is CORS?,CORS is a security mechanism that controls resource sharing between different origins.
+What is dotenv in MERN?,dotenv is used to manage environment variables securely.
+What is bcrypt?,bcrypt is used to hash passwords before storing them in the database.
+What is session vs token authentication?,Session uses server-side storage while token uses client-side storage.
+What is MongoDB aggregation?,Aggregation processes data and returns computed results.
+What is indexing in MongoDB?,Indexing improves query performance in MongoDB.
+What is Axios?,Axios is a library used to make HTTP requests from the frontend.
+What is deployment in MERN?,Deployment is the process of hosting a MERN application on a server.
+What is CI/CD in MERN?,CI/CD automates building testing and deploying applications.
+What is monorepo in MERN?,A monorepo stores frontend and backend code in a single repository.
+What is role based access control?,Role based access control restricts system access based on user roles.
+What is API rate limiting?,API rate limiting restricts the number of requests a client can make.
+What is WebSocket in MERN?,WebSocket enables real time communication between client and server.
+What is file upload in MERN?,File upload allows users to send files from frontend to backend.
+What is cloud storage integration?,Cloud storage integration stores files on services like AWS S3.
+What is pagination?,Pagination divides large data sets into smaller pages.
+What is data validation in MERN?,Data validation ensures only correct data is stored and processed.
+What is schema design in MongoDB?,Schema design defines how data is structured in MongoDB collections.
+What is API versioning?,API versioning manages changes without breaking existing clients.
+What is load balancing?,Load balancing distributes traffic across multiple servers.
+What is database sharding in MongoDB?,Database sharding splits data across multiple servers to improve performance and scalability.
+What is aggregation pipeline optimization?,Aggregation pipeline optimization improves query efficiency using indexes and stages.
+What is JWT refresh token?,A refresh token is used to obtain a new JWT access token without re-authenticating the user.
+What is server-side rendering with React in MERN?,Server-side rendering renders React components on the server for better SEO and performance.
+What is schema-less vs schema-enforced design in MongoDB?,Schema-less allows flexible document structure, schema-enforced uses Mongoose schemas for consistency.
+What is connection pooling in Node.js?,Connection pooling reuses database connections to improve performance and reduce latency.
+What is rate limiting and throttling?,Rate limiting restricts requests per time window, throttling slows down excessive requests to prevent overload.
+What is GraphQL vs REST in MERN?,GraphQL allows clients to request exactly the data they need, while REST has fixed endpoints returning full resources.
+What is microservices architecture in MERN?,Microservices split an app into smaller independent services that communicate via APIs.
+What is horizontal vs vertical scaling in MERN?,Horizontal scaling adds more servers, vertical scaling increases resources on a single server.
+What is caching strategy in MERN?,Caching stores frequently accessed data in memory (e.g., Redis) to reduce database load.
